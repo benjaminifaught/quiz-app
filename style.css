@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	line-height: 1;
+}
+
+
+html {
+	background-image:url('Images/studio.jpg');
+	background-size: auto 768px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin-top: 0px;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 50px;
+	text-align:center;
+	color: white;	
+}
+#question_wrapper {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	color: white;
+	font-size: 25px;
+	padding-top: 30px;
+}
+#answer_holder {
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 20px;
+	line-height: 35px;
+}
+#button_holder {
+	margin-left: 50px;
+}
+#submit {
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+#retry_button{
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 5px;
+	display: none;
+}
+#bottom {
+	text-align: center;
+	whites-space:nowrap;
+}
+#score_holder {
+	width: 75%;
+	display: inline-block;
+	margin-right: 200px;
+}
+#question_score {
+	display: inline-block;
+}
+.score_meter {
+	display: none;
+	height: 150px;
+	margin-bottom: 0px;
+}
+#score_meter0 {
+	display: inline-block;
+}
+#fact_holder {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align:center;
+	color: white;
+	width: 450px;
+	vertical-align:top;
+	margin-left: 30px;
+	margin-top: 45px;
+}
+#final {
+	font-size: 30px;
+	line-spacing: 35px;
+}

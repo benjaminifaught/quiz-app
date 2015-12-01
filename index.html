@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Recording Technology Quiz!</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="application.js"></script>
+	</head>
+	<body>
+		<h1>Recording Technology Quiz!</h1>
+		<div id="question_wrapper">
+			<span class="question">1. What is the most used microphone?</span><br>
+			<div id="answer_holder">
+				<input type="radio" name="option" class="option" value="0"><span class="answer">Neumann U87</span><br>
+				<input type="radio" name="option" class="option" value="1"><span class="answer">Sure SM57</span><br>
+				<input type="radio" name="option" class="option" value="2"><span class="answer">MXL V63M</span><br>
+				<input type="radio" name="option" class="option" value="3"><span class="answer">Cascade Fathead</span><br>
+			</div>
+			<div id="button_holder">
+				<input type="button" id="submit" value="Submit Answer"><span id="hint"></span>
+			</div>
+
+		</div>
+	</body>
+	<div id="bottom">
+		<div id="score_holder">
+			<div id="question_score">
+				<img src="Images/dial-back.png" class ="score_meter" id="score_meter0" alt="score_meter">
+			</div>
+			<div id="fact_holder">
+				<span id="last_question_fact">
+				</span>
+			</div>
+		</div>
+	</div>
+</html>
